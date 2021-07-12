@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+	<node pkg="test-kalman" type="dynamics.py" name="dynamics" output="screen">
+	</node>
+
+</launch>
