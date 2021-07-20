@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
 
-	<node pkg="test-kalman" type="dynamics.py" name="dynamics" output="screen">
+	<node pkg="test_kalman" type="dynamics.py" name="dynamics" output="screen">
+	</node>
+
+	<node pkg="test_kalman" type="kalman_filter.py" name="kalman_filter" output="screen">
 	</node>
 
 </launch>
